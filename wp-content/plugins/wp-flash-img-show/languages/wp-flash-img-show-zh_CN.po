@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-flash-img-show\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-08 16:10+0800\n"
+"PO-Revision-Date: 2011-09-08 16:14+0800\n"
+"Last-Translator: xwjie <gxxywj@qq.com>\n"
+"Language-Team: Tojary <gxxywj@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc.function.php:106
+msgid "Lack of `wp_head()`. More:"
+msgstr "缺少 `wp_head()`.查看更多："
+
+#: inc.function.php:108
+msgid "Lack of `wp_footer()`. More:"
+msgstr "缺少`wp_footer()`.查看更多："
+
+#: inc.function.php:110
+msgid "Wp-flash-img-show can work now. Please Unchecked `Debug mode` on the Wp-flash-img-show Setting panel."
+msgstr "Wp-flash-img-show已经可以正常工作，请在Wp-flash-img-show的设置页面取消“排错模式”的勾选。"
+
+#: wp-flash-img-show.php:117
+msgid "Working in Debug mode. "
+msgstr "现在工作在“排错模式”"
+
+#: wp-flash-img-show.php:117
+#: wp-flash-img-show.php:783
+#, php-format
+msgid "Browse the %s home page %s now, you will get some tips."
+msgstr "访问 %s 首页 %s 你会得到提示信息。"
+
+#: wp-flash-img-show.php:223
+msgid "Next &gt;"
+msgstr ""
+
+#: wp-flash-img-show.php:224
+msgid "&lt; Prev"
+msgstr ""
+
+#: wp-flash-img-show.php:225
+msgid "Image"
+msgstr ""
+
+#: wp-flash-img-show.php:226
+msgid "of"
+msgstr ""
+
+#: wp-flash-img-show.php:227
+msgid "Close"
+msgstr ""
+
+#: wp-flash-img-show.php:228
+msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgstr ""
+
+#: wp-flash-img-show.php:260
+#, php-format
+msgid "If you want to edit this input field, you must select: %s"
+msgstr "如果你想修改这里的内容，你必须选择： %s"
+
+#: wp-flash-img-show.php:260
+#: wp-flash-img-show.php:383
+msgid "Manually enter images information"
+msgstr "手动输入图片URL地址、链接、描述"
+
+#: wp-flash-img-show.php:277
+msgid "Preview"
+msgstr "预览"
+
+#: wp-flash-img-show.php:281
+msgid "Get code"
+msgstr "获取代码"
+
+#: wp-flash-img-show.php:283
+msgid "If there's no change,clear your Browser's Cache and try again."
+msgstr "如果没有变化，请清空浏览器缓存再试一次。"
+
+#: wp-flash-img-show.php:286
+#: wp-flash-img-show.php:289
+#: wp-flash-img-show.php:364
+#: wp-flash-img-show.php:443
+msgid "Config Name"
+msgstr "配置名"
+
+#: wp-flash-img-show.php:308
+msgid "Manage Config"
+msgstr "配置管理"
+
+#: wp-flash-img-show.php:312
+msgid "Choose a Config"
+msgstr "选择配置"
+
+#: wp-flash-img-show.php:326
+msgid "Edit this Config"
+msgstr "编辑配置"
+
+#: wp-flash-img-show.php:327
+msgid "Delete Config"
+msgstr "删除配置"
+
+#: wp-flash-img-show.php:333
+msgid "Delete This Config"
+msgstr "删除这个配置"
+
+#: wp-flash-img-show.php:346
+msgid "New Config Name"
+msgstr "新配置"
+
+#: wp-flash-img-show.php:351
+msgid "Create a New Config"
+msgstr "新建配置"
+
+#: wp-flash-img-show.php:358
+msgid "Config Name Only consist of letters,numbers"
+msgstr "配置名仅允许有英文字母和数字"
+
+#: wp-flash-img-show.php:364
+msgid "Basic Settings"
+msgstr "基本设置"
+
+#: wp-flash-img-show.php:369
+msgid "Img item number"
+msgstr "显示图片数"
+
+#: wp-flash-img-show.php:383
+#: wp-flash-img-show.php:454
+#: wp-flash-img-show.php:460
+#: wp-flash-img-show.php:466
+#: wp-flash-img-show.php:472
+#: wp-flash-img-show.php:487
+#: wp-flash-img-show.php:493
+#: wp-flash-img-show.php:499
+#: wp-flash-img-show.php:505
+#: wp-flash-img-show.php:511
+#: wp-flash-img-show.php:517
+#: wp-flash-img-show.php:523
+#: wp-flash-img-show.php:531
+#: wp-flash-img-show.php:539
+#: wp-flash-img-show.php:547
+#: wp-flash-img-show.php:555
+#: wp-flash-img-show.php:569
+#: wp-flash-img-show.php:581
+#: wp-flash-img-show.php:587
+#: wp-flash-img-show.php:593
+#: wp-flash-img-show.php:599
+#: wp-flash-img-show.php:607
+#: wp-flash-img-show.php:619
+#: wp-flash-img-show.php:625
+#: wp-flash-img-show.php:631
+#: wp-flash-img-show.php:639
+#: wp-flash-img-show.php:645
+#: wp-flash-img-show.php:654
+#: wp-flash-img-show.php:671
+#: wp-flash-img-show.php:680
+#: wp-flash-img-show.php:693
+#: wp-flash-img-show.php:710
+msgid "default"
+msgstr "默认"
+
+#: wp-flash-img-show.php:386
+msgid "Get the first images from Recent post automatic."
+msgstr "自动从最新文章获取图片"
+
+#: wp-flash-img-show.php:387
+#: wp-flash-img-show.php:395
+msgid "include gallery"
+msgstr "抓取时包含相册"
+
+#: wp-flash-img-show.php:391
+msgid "Get images from this page automatic"
+msgstr "自动从独立页面获取图片"
+
+#: wp-flash-img-show.php:393
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: wp-flash-img-show.php:394
+msgid "descend"
+msgstr "倒叙"
+
+#: wp-flash-img-show.php:406
+msgid "Image URL"
+msgstr "图片URL地址"
+
+#: wp-flash-img-show.php:407
+msgid "Link"
+msgstr "链接地址"
+
+#: wp-flash-img-show.php:408
+msgid "description"
+msgstr "图片描述"
+
+#: wp-flash-img-show.php:421
+msgid "Select/Upload a image from media library"
+msgstr "从媒体库选择或者上传图片"
+
+#: wp-flash-img-show.php:435
+msgid "Image URL is not allow cross-domain , it must begin with:"
+msgstr "图片地址不允许跨域名，图片URL开头只能是："
+
+#: wp-flash-img-show.php:439
+msgid "Do Not upload your image file to \"wp-content/plugins/wp_flash_img_show/images/\" ,or you may lose any custom image files when update this plugin."
+msgstr "不要上传图片到\"wp-content/plugins/wp_flash_img_show/images/\"文件夹，否则当你升级这个插件的时候，你将可能丢失所有自定义的图片"
+
+#: wp-flash-img-show.php:443
+msgid "Display option"
+msgstr "显示选项"
+
+#: wp-flash-img-show.php:452
+msgid "Width"
+msgstr "宽度"
+
+#: wp-flash-img-show.php:458
+msgid "Height"
+msgstr "高度"
+
+#: wp-flash-img-show.php:464
+msgid "Round Corner"
+msgstr "圆角"
+
+#: wp-flash-img-show.php:470
+msgid "Auto Play Time"
+msgstr "图片切换时间"
+
+#: wp-flash-img-show.php:478
+msgid "Is Show button"
+msgstr "是否显示按钮"
+
+#: wp-flash-img-show.php:480
+#: wp-flash-img-show.php:487
+#: wp-flash-img-show.php:563
+#: wp-flash-img-show.php:569
+#: wp-flash-img-show.php:651
+#: wp-flash-img-show.php:654
+msgid "Yes"
+msgstr "是"
+
+#: wp-flash-img-show.php:481
+#: wp-flash-img-show.php:564
+#: wp-flash-img-show.php:652
+msgid "No"
+msgstr "否"
+
+#: wp-flash-img-show.php:491
+msgid "Button Margin"
+msgstr "按钮的位置"
+
+#: wp-flash-img-show.php:497
+msgid "Button Distance"
+msgstr "按钮的距离"
+
+#: wp-flash-img-show.php:503
+msgid "Button FontSize"
+msgstr "按钮的字体大小"
+
+#: wp-flash-img-show.php:509
+msgid "Button Width"
+msgstr "按钮的宽度"
+
+#: wp-flash-img-show.php:515
+msgid "Button Height"
+msgstr "按钮的高度"
+
+#: wp-flash-img-show.php:521
+msgid "Button Alpha"
+msgstr "按钮的透明度"
+
+#: wp-flash-img-show.php:527
+msgid "Button Text Color"
+msgstr "按钮文字的颜色"
+
+#: wp-flash-img-show.php:535
+msgid "Button Default Color"
+msgstr "按钮的默认颜色"
+
+#: wp-flash-img-show.php:543
+msgid "Button Hover Color"
+msgstr "按钮的掠过颜色"
+
+#: wp-flash-img-show.php:551
+msgid "Button Focus Color"
+msgstr "按钮当前颜色"
+
+#: wp-flash-img-show.php:561
+msgid "Is Show Description"
+msgstr "是否显示描述文字"
+
+#: wp-flash-img-show.php:573
+msgid "Description Location"
+msgstr "描述文字的位置"
+
+#: wp-flash-img-show.php:576
+#: wp-flash-img-show.php:581
+msgid "top"
+msgstr "顶部"
+
+#: wp-flash-img-show.php:577
+msgid "bottom"
+msgstr "底部"
+
+#: wp-flash-img-show.php:578
+msgid "inside"
+msgstr "内部"
+
+#: wp-flash-img-show.php:585
+msgid "Description Top Position"
+msgstr "描述文字垂直偏移"
+
+#: wp-flash-img-show.php:587
+msgid "Take effect Only if `Description Location` is `inside`"
+msgstr "仅当`描述文字的位置`选择`内部`时生效"
+
+#: wp-flash-img-show.php:591
+msgid "Description Text Font"
+msgstr "描述文字的字体(名)"
+
+#: wp-flash-img-show.php:597
+msgid "Description Text FontSize"
+msgstr "描述文字的字体大小"
+
+#: wp-flash-img-show.php:603
+msgid "Description Text Color"
+msgstr "描述文字的字体颜色"
+
+#: wp-flash-img-show.php:611
+msgid "Description Text Align"
+msgstr "描述文字的字体对齐方式"
+
+#: wp-flash-img-show.php:614
+#: wp-flash-img-show.php:619
+msgid "center"
+msgstr "中间"
+
+#: wp-flash-img-show.php:615
+msgid "left"
+msgstr "左"
+
+#: wp-flash-img-show.php:616
+msgid "right"
+msgstr "右"
+
+#: wp-flash-img-show.php:623
+msgid "Description Move Duration"
+msgstr "描述文字背景动画的时间"
+
+#: wp-flash-img-show.php:625
+msgid "Take effect Only if `Description Location` is `top` or `bottom`"
+msgstr "仅当“描述文字的位置”选择“顶部”或者“底部”时生效"
+
+#: wp-flash-img-show.php:629
+msgid "Description Background Alpha"
+msgstr "描述文字的背景透明"
+
+#: wp-flash-img-show.php:635
+msgid "Description Background Color"
+msgstr "描述文字的背景颜色"
+
+#: wp-flash-img-show.php:643
+msgid "Description Background Height"
+msgstr "描述文字的背景透明"
+
+#: wp-flash-img-show.php:649
+msgid "Is Height Quality"
+msgstr "是否采用高质量"
+
+#: wp-flash-img-show.php:666
+msgid "Window Open"
+msgstr "链接打开方式"
+
+#: wp-flash-img-show.php:668
+#: wp-flash-img-show.php:671
+msgid "New"
+msgstr "新"
+
+#: wp-flash-img-show.php:669
+msgid "Current"
+msgstr "当前"
+
+#: wp-flash-img-show.php:675
+msgid "Chang Image Mode"
+msgstr "按钮切换动作"
+
+#: wp-flash-img-show.php:677
+#: wp-flash-img-show.php:680
+msgid "click"
+msgstr "单击"
+
+#: wp-flash-img-show.php:678
+msgid "hover"
+msgstr "掠过"
+
+#: wp-flash-img-show.php:684
+msgid "Scale Mode"
+msgstr "图片放缩模式"
+
+#: wp-flash-img-show.php:697
+msgid "Transform Mode"
+msgstr "图片切换模式"
+
+#: wp-flash-img-show.php:726
+msgid "Update Options"
+msgstr "保存设置"
+
+#: wp-flash-img-show.php:731
+msgid "Default option"
+msgstr "恢复默认设置"
+
+#: wp-flash-img-show.php:735
+msgid "Load Defaults Setting! Are You Sure ?"
+msgstr "恢复所有设置，确定吗？"
+
+#: wp-flash-img-show.php:745
+msgid "Have trouble? Just Click here."
+msgstr "遇到问题？点击这里吧"
+
+#: wp-flash-img-show.php:754
+msgid "Where is it display ?"
+msgstr "怎么样插入页面？"
+
+#: wp-flash-img-show.php:758
+#: wp-flash-img-show.php:764
+msgid "Method"
+msgstr "方法"
+
+#: wp-flash-img-show.php:759
+msgid "Put this (HTML) code in your Template / Post / Widgets(text-widgets)"
+msgstr "把下面这句（HTML）代码复制到你的主题文件/文章/边栏小工具（文本小工具）"
+
+#: wp-flash-img-show.php:762
+#: wp-flash-img-show.php:768
+#, php-format
+msgid "Display Config: %s"
+msgstr "显示配置: %s"
+
+#: wp-flash-img-show.php:765
+msgid "Put this (PHP) code in your template "
+msgstr "把这句（PHP）代码复制到你的主题文件中"
+
+#: wp-flash-img-show.php:770
+msgid "Make sure have <code>wp_head()</code> just before the closing <code>&lt;/head&gt;</code> tag of your theme AND  have <code>wp_footer()</code> just before the closing <code>&lt;/body&gt;</code> tag of your theme, or you will break many plugins.(You can edit and add those function to your theme file.)"
+msgstr "确保你的主题模板文件中有一个 <code>wp_head()</code>在<code>&lt;/head&gt;</code> 标签之前， 而确保有一个 <code>wp_footer()</code> 在 <code>&lt;/body&gt;</code>标签之前, 否则很多插件无法使用，包括本插件（请手动添加到主题模板文件中）."
+
+#: wp-flash-img-show.php:775
+msgid "If the plugin can not work in you theme(template), `Debug mode` can help you."
+msgstr "如果插件不能正常工作，启用下面的“排错模式”也许可以帮到你。"
+
+#: wp-flash-img-show.php:781
+msgid "Enable Debug mode"
+msgstr "启用“排错模式”"
+
+#: wp-flash-img-show.php:782
+msgid "Save"
+msgstr "保存"
+
+#: wp-flash-img-show.php:789
+msgid "If you find my work useful and you want to encourage the development of more free resources, you can do it by donating..."
+msgstr "如果你觉得这个插件对你很有用，想鼓励作者开发更多功能，可以考虑小额捐助："
+
+#~ msgid "convert gallery shortcode"
+#~ msgstr "自动抓取时包括相册图片"
+
+#, fuzzy
+#~ msgid "Update options &raquo;"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Delete all"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Update Options &raquo;"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Width:"
+#~ msgstr "宽度"
+
+#, fuzzy
+#~ msgid "Height:"
+#~ msgstr "高度"
+
+#, fuzzy
+#~ msgid "Choose a config file:"
+#~ msgstr "选择配置"
+
+#, fuzzy
+#~ msgid "Choose a playlist:"
+#~ msgstr "选择配置"
+
+#, fuzzy
+#~ msgid "Image Files"
+#~ msgstr "图片URL地址"
+
+#, fuzzy
+#~ msgid "remove"
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "Upload images"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Upload a Zip-File"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Upload Images"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Upload image"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Update"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Album description:"
+#~ msgstr "图片描述"
+
+#, fuzzy
+#~ msgid "Create new thumbnails"
+#~ msgstr "新建配置"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "图片描述"
+
+#, fuzzy
+#~ msgid "Delete this gallery ?"
+#~ msgstr "删除这个配置"
+
+#, fuzzy
+#~ msgid "Gallery settings"
+#~ msgstr "基本设置"
+
+#, fuzzy
+#~ msgid "Preview image"
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "Create new page"
+#~ msgstr "新建配置"
+
+#, fuzzy
+#~ msgid "Delete images"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Delete tags"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Image ID:"
+#~ msgstr "图片URL地址"
+
+#, fuzzy
+#~ msgid "Upload pictures"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Reload page"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "SQL Mode"
+#~ msgstr "图片放缩模式"
+
+#, fuzzy
+#~ msgid "PHP Safe Mode"
+#~ msgstr "图片放缩模式"
+
+#, fuzzy
+#~ msgid "Manage tags"
+#~ msgstr "配置管理"
+
+#, fuzzy
+#~ msgid "Change options"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Update capabilities"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "General Options"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Delete image files"
+#~ msgstr "删除这个配置"
+
+#, fuzzy
+#~ msgid "Thumbnail settings"
+#~ msgstr "基本设置"
+
+#, fuzzy
+#~ msgid "Image settings"
+#~ msgstr "基本设置"
+
+#, fuzzy
+#~ msgid "Image quality"
+#~ msgstr "是否采用高质量"
+
+#, fuzzy
+#~ msgid "Sort options"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Position"
+#~ msgstr "图片描述"
+
+#, fuzzy
+#~ msgid "Shuffle mode"
+#~ msgstr "图片放缩模式"
+
+#, fuzzy
+#~ msgid "Texts / Buttons Color"
+#~ msgstr "按钮当前颜色"
+
+#, fuzzy
+#~ msgid "Reset options"
+#~ msgstr "恢复默认设置"
+
+#, fuzzy
+#~ msgid "Reset settings"
+#~ msgstr "基本设置"
+
+#, fuzzy
+#~ msgid "Update File"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Manage image tags"
+#~ msgstr "配置管理"
+
+#, fuzzy
+#~ msgid "Rename"
+#~ msgstr "替换"
+
+#, fuzzy
+#~ msgid "Delete Tag"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Default style"
+#~ msgstr "恢复默认设置"
+
+#, fuzzy
+#~ msgid "Image list"
+#~ msgstr "图片URL地址"
+
+#, fuzzy
+#~ msgid "Width x Height"
+#~ msgstr "高度"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr "高度"
+
+#, fuzzy
+#~ msgid "Photos"
+#~ msgstr "图片地址"
+
+#, fuzzy
+#~ msgid "Display on page"
+#~ msgstr "显示选项"
+
+#, fuzzy
+#~ msgid "Button style"
+#~ msgstr "按钮的距离"
+
+#, fuzzy
+#~ msgid "Reset Options"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "图片描述"
+
+#, fuzzy
+#~ msgid "Link to:"
+#~ msgstr "链接地址"
+
+#, fuzzy
+#~ msgid "Manage Photos"
+#~ msgstr "配置管理"
+
+#, fuzzy
+#~ msgid "Create New Album"
+#~ msgstr "新建配置"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "Delete photo"
+#~ msgstr "删除配置"
+
+#, fuzzy
+#~ msgid "Link url:"
+#~ msgstr "链接地址"
+
+#, fuzzy
+#~ msgid "Photo:"
+#~ msgstr "图片地址"
+
+#, fuzzy
+#~ msgid "Display status:"
+#~ msgstr "显示选项"
+
+#, fuzzy
+#~ msgid "Display order:"
+#~ msgstr "显示选项"
+
+#, fuzzy
+#~ msgid "Photo"
+#~ msgstr "图片地址"
+
+#, fuzzy
+#~ msgid "Prev page"
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "Plugin Description"
+#~ msgstr "图片描述"
+
+#, fuzzy
+#~ msgid "Setting"
+#~ msgstr "基本设置"
+
+#, fuzzy
+#~ msgid "Border color"
+#~ msgstr "按钮的掠过颜色"
+
+#, fuzzy
+#~ msgid "Links:"
+#~ msgstr "链接地址"
+
+#, fuzzy
+#~ msgid "Link type"
+#~ msgstr "链接地址"
+
+#, fuzzy
+#~ msgid "Link page"
+#~ msgstr "链接地址"
+
+#, fuzzy
+#~ msgid "Upload Photos"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "Upload Single Photos"
+#~ msgstr "上传图片"
+
+#, fuzzy
+#~ msgid "create one"
+#~ msgstr "图片放缩模式"
+
+#, fuzzy
+#~ msgid "Update thumbnails"
+#~ msgstr "保存设置"
+
+#, fuzzy
+#~ msgid "Display method:"
+#~ msgstr "显示选项"
+
+#, fuzzy
+#~ msgid "pageview."
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "Photo Name"
+#~ msgstr "图片地址"
+
+#~ msgid "Select a config and edit it and then Click here to get code !"
+#~ msgstr "选择并编辑你的配置（名）然后点击这里获取代码！"
+
+#~ msgid "display  your New config:"
+#~ msgstr "显示你新建的配置："
+
+#~ msgid ""
+#~ "Image URL is not allow cross-domain <br />Blog URL is \"http://blog.xwjie."
+#~ "com\" ,Image URL should begin with \"http://blog.xwjie.com\""
+#~ msgstr ""
+#~ "图片地址不允许跨域名。<br>例如网站地址是http://blog.xwjie.com，图片URL只能"
+#~ "是http://blog.xwjie.com开头"
+
+#~ msgid "Is Show About"
+#~ msgstr "是否显示关于信息"
+
+#~ msgid "Is Show Btn"
+#~ msgstr "是否显示按钮"

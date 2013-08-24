@@ -1,0 +1,71 @@
+/*
+Theme Name: Cloud love
+Theme URI: http://wordpress.org/themes/twentyeleven
+Author: Cloud
+Author URI: http://wordpress.org/
+Template: twentytwelve
+Description: Cloud love theme base on the 2012 theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentyeleven
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+@import url("../twentytwelve/style.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { 
+	font-family: "Microsoft Yahei",​Arial,​Helvetica,​sans-serif;
+}
+
+.main-navigation li{
+	font-size: 18px;	
+}
+
+.site-header table{
+	width: 140%
+}
+
+.menu-toggle, button, input[type="submit"], input[type="button"], input[type="reset"]{
+	font-size: 12px;	
+}
+
+.widget-title{
+	font-size: 16px
+}
+
+div#mytag{
+	font-size: 14px;
+}
+
+.widget-area .widget li{
+	font-size: 14px;
+}
+
+.widget-area .widget{
+	margin-bottom: 24px;
+}
+
+.widget-area .widget h3{
+	margin-bottom: 0px; 
+}
+
+.entry-header .entry-title{
+	font-size: 16px;
+}
+
+.entry-content p{
+	font-size: 12px;	
+}
+
+div#mytag{
+  	line-height: 30px;
+ }
