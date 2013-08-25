@@ -2,7 +2,7 @@
     <div class="sidebar">
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('内容页侧栏') ) : ?>
 	<div id="related_post" class="widget">
-		<h3><?php $category = get_the_category(); echo $category[0]->cat_name; ?> 下的最新文章</h3>
+		<h3><?php $category = get_the_category(); echo $category[0]->cat_name; ?> <span class="h3small">下的最新文章</span></h3>
 		<?php
     		if(is_single()){
     	        $cats = get_the_category();

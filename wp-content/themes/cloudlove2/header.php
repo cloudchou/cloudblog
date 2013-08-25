@@ -112,10 +112,12 @@ if ( is_single() ){
 </div>
 <div id="content">
 <div class="position">
-<?php if ( !is_home() ) {  ?>
+<?php if ( !is_home() && ! is_page() ) {  ?>
 当前位置：
+<!-- 
 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
  > 
+ -->
 
 <?php
 if( is_single() ){

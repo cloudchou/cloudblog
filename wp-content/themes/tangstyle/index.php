@@ -1,4 +1,4 @@
-﻿<?php get_header(header); ?>
+<?php get_header(header); ?>
 	<div id="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 		<div class="post_list">

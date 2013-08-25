@@ -15,59 +15,94 @@ Text Domain: twentyeleven
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 @import url("../tangstyle/style.css");
- 
- #navigation {
-    float: left;
-    padding-top: 90px;
+
+#navigation {
+	float: left;
+	padding-top: 90px;
 }
 
 .cutline {
-    border: 1px dashed #CCCCCC;
-    float: left;
-    margin-top: 80px;
-    position: absolute;
-    width: inherit;
+	border: 1px dashed #CCCCCC;
+	float: left;
+	margin-top: 80px;
+	position: absolute;
+	width: inherit;
 }
-
 
 #search {
-    float: right;
-    margin-top: 20px;
-    overflow: hidden;
-    position: relative;
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
 }
+
 #searchform {
 	background-color: transparent;
 }
-#s{
+
+#s {
 	background-color: transparent;
 	border-bottom: 1px solid #CCC;
 	width: 160px;
 }
-#s:hover{
+
+#s:hover {
 	background-color: transparent;
 	border-bottom: 1px solid #33BFE5;
 }
 
 #searchsubmit i {
-    color: #919191;
+	color: #919191;
 }
 
-#searchsubmit:hover i{color:#47B4DA}
- 
- #mytag{
-  	margin-top:	5px;
-  	line-height: 30px;
- }
- 
- .post_list h2 a:hover{
- 
- color:#47B4DA
- }
- 
- .widget a:hover {
-    color: #47B4DA;
+#searchsubmit:hover i {
+	color: #47B4DA
 }
+
+#intropara {
+	margin-top: 5px;
+	line-height: 30px;
+	text-indent: 26px;
+}
+
+#intropara .emphasize{
+	font-size: 26px;
+}
+
+.post_list h2 a:hover {
+	color: #47B4DA
+}
+
+.widget a:hover {
+	color: #47B4DA;
+}
+
 a:HOVER {
-	 color: #47B4DA;
+	color: #47B4DA;
 }
+
+#header {
+	/*border: #FF0000 1px solid;*/
+}
+
+#content {
+	/*border: #FF0000 1px solid;*/
+}
+#wrap{
+	display: inline;	
+}
+
+.widget_recent_entries ul li {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+html {
+	overflow: scroll;
+}
+
+.h3small{
+	font-size: 14px;
+}
+ 
