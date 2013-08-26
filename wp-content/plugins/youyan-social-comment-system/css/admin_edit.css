@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+  background: none repeat scroll 0 0 #fff;
+  color: #2d2d2d;
+  position:relative;
+  font-family:微软雅黑,simsun;
+}
+
+.importBTN{
+	background:url(../images/importData.png) 0 0 no-repeat;
+	padding-top:8px;
+	width:179px;
+	height:30px;
+	color:#237fd4;
+	font-size:14px;
+	display:block;
+	cursor:pointer;
+	margin-bottom:15px;
+	float:left;
+	text-align:center;
+}
+.exportBTN{
+	background:url(../images/exportData.png) 0 0 no-repeat;
+	padding-top:8px;
+	width:114px;
+	height:30px;
+	color:#237fd4;
+	font-size:14px;
+	display:block;
+	cursor:pointer;
+	padding-left:65px;
+	float:left;
+}
+.connectBTN{
+	width:116px;
+	height:35px;
+	float:left;
+	display:block;
+	border:none;
+	cursor:pointer;
+}
+.connectSINA{
+	background:url(../images/connectSINA.png) 0 0 no-repeat;	
+}
+.re_connectSINA{
+	background:url(../images/re_connectSINA.png) 0 0 no-repeat;	
+}
+.unconnectSINA{
+	background:url(../images/connectedSINA.png) 0 0 no-repeat;	
+}
+.connectTencent{
+	background:url(../images/connectTENCENT.png) 0 0 no-repeat;	
+}
+.unconnectTencent{
+	background:url(../images/connectedTENCENT.png) 0 0 no-repeat;	
+}
+#connectWrapperConnectedTencent{
+	display:none;	
+}
+#connectWrapperConnectedT163{
+	display:none;	
+}
+#connectWrapperConnectedTSOHU{
+	display:none;	
+}
+
+.connectT163{
+	background:url(../images/connect163.png) 0 0 no-repeat;	
+}
+.unconnectT163{
+	background:url(../images/connected163.png) 0 0 no-repeat;	
+}
+.connectTSOHU{
+	background:url(../images/connectedsohu.png) 0 0 no-repeat;	
+}
+.unconnectTSOHU{
+	background:url(../images/connectsohu.png) 0 0 no-repeat;	
+}
+
+.inputAPPTitle{
+	width:70px;
+	font-size:13px;
+	color:#333;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:4px;
+}
+.APPInput{
+	float:left;
+	width:232px;
+	height:24px;
+	border:1px solid #dddddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:2px;
+}
+.connectWrapper{
+	margin-bottom:10px;	
+}
+.inputAPPIntro{
+	color:#b3b3b3;
+	float:left;
+	font-size:13px;
+	padding:5px 0 0 5px;
+}
+.inputAPPIntroup{
+	color:#b3b3b3;
+	float:left;
+	font-size:13px;
+	padding:0 0 0 5px;
+	margin-top:4px;
+}
+.inputAPPWrapper{
+	padding:0 0 2px 0;	
+	/*close item*/
+	/*display:none;*/
+}
+.submitAPPWrapper{
+	/*close item*/
+	/*display:none;	*/
+	margin-bottom:15px;
+	margin-top:5px;
+}
+#submitAPPTencent,#submitAPP,#submitAPPT163,#submitAPPTSOHU{
+	border:none;
+	background:url(../images/saveBTN.png) 0 0 no-repeat;
+	width:91px;
+	height:26px;
+	float:left;
+	color:#406a3b;
+	font-size:13px;
+	text-align:center;
+	cursor:pointer;
+	text-shadow: 0 1px #EAF8C6;
+}
+input.showCodeBTNApply{
+	width:91px;
+	height:37px;
+	text-align:center;
+	background:url(../images/provideURLBTN.png) 0 0 no-repeat;
+	color:#406a3b;
+	text-shadow:#eaf8c6 0 1px;
+	font-size:15px;
+	cursor:pointer;		
+	border:none;
+	position:fixed;
+	top:145px;
+	left:480px;
+}

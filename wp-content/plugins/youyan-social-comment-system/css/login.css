@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html{
+	background: none repeat scroll 0 0 #fff;
+}
+body{
+	background: none repeat scroll 0 0 #fff;
+	color: #2d2d2d;
+	position:relative;
+}
+
+
+.contentTitle{
+	font-family:微软雅黑,黑体;
+	font-size:16px;
+	width:317px;
+	border-bottom:1px solid #d6d6d6;
+}
+div a.currentTab{
+	border:1px solid #d6d6d6;
+	border-bottom:none;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color:#333;
+	cursor:default;
+
+}
+a.unselectedTab{
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-color:#fff;
+	margin-bottom:-1px;
+	padding:4px 12px 4px 12px;
+	color:#346a9c;
+	cursor:pointer;
+	text-decoration:none;
+}
+.innerContainer{
+	width:350px;
+	margin:20px auto;
+}
+.detailTitle, .inputUpTag{
+	font-size:14px;
+	font-family:微软雅黑,黑体;
+	padding:8px 0 3px 0;
+}
+.innerContainer input{
+	width:312px;
+	height:30px;
+	border: 1px solid #dddddd;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0 0 0 6px;
+	float:left;
+	padding:7px 0 0 6px\9;
+	height:30px\9;
+	*height:24px;
+}
+.loginBTNPane, #signupBTNPane{
+	display:block;
+	float:right;
+	width:89px;
+	height:23px;
+	background:url(../images/loginInnerBTN.png) 0 0 no-repeat;
+	font-size:13px;
+	font-family:微软雅黑,黑体;
+	padding:5px 0 0 0;
+	text-align:center;
+	color:#fff;
+	margin:10px 37px 0 0 ;
+	cursor:pointer;
+	text-decoration:none;
+}
+#alertLogin{
+	padding-top:15px;
+	display:block;
+	float:left;
+}
+.innerContainer input#remCheck{
+	float:left;	
+	width:auto;
+	height:auto;
+	margin:14px 0 0 2px;
+	padding:0;
+}
+.checkRem{
+	float:left;
+	font-size:13px;
+	margin:13px 0 0 4px;
+}
+a:hover.loginBTNPane{
+	color:#fff;
+}
+#signuppart{
+	display:none;	
+}
+
+.errorInput{
+	width:17px;
+	height:17px;
+	background:url(../images/delDone.png) 0 0 no-repeat;
+	margin-left:10px;
+	float:left;
+	margin-top:9px;
+}
+.correctInput{
+	width:17px;
+	height:17px;
+	background:url(../images/wellDone.png) 0 0 no-repeat;
+	margin-left:10px;
+	float:left;
+	margin-top:9px;	
+}
+.introWhat{
+	font-family:微软雅黑,simsun;
+	font-size:16px;
+	color:#7aa23a;
+	padding:15px 0 0 14px;
+}
+.introWhy{
+	font-family:微软雅黑,simsun;
+	font-size:12px;
+	padding: 6px 0 0 50px;
+	line-height:17px;
+	color:#888;
+}

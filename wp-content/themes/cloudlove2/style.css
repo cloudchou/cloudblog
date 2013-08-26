@@ -106,3 +106,35 @@ html {
 	font-size: 14px;
 }
  
+.info a:hover{
+	color: #47B4DA
+}
+
+.feed-tip{
+	display:table;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 666px;
+}
+
+.tablerow{
+ 	display: table-row; 	
+}
+
+.navprev {
+	display: table-cell;
+	width: 50%;
+	text-align: left;
+} 
+
+.navnext{
+	display: table-cell;
+	width: 50%;
+	text-align: right;  
+}
+
+.comment_meta cite a:HOVER {
+    color: #47B4DA;
+}
+
+ 
