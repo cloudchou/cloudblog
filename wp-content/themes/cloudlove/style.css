@@ -1,10 +1,10 @@
 /*
 Theme Name: Cloud love
-Theme URI: http://wordpress.org/themes/twentyeleven
+Theme URI: http://wordpress.org/themes/Cloudlove2
 Author: Cloud
 Author URI: http://wordpress.org/
-Template: twentytwelve
-Description: Cloud love theme base on the 2012 theme
+Template: TangStyle
+Description: Cloud love theme base on the Tang Style
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,58 +14,174 @@ Text Domain: twentyeleven
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
-@import url("../twentytwelve/style.css");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td { 
-	font-family: "Microsoft Yahei",鈥婣rial,鈥婬elvetica,鈥媠ans-serif;
+@import url("../tangstyle/style.css");
+
+#navigation {
+	float: left;
+	padding-top: 90px;
 }
 
-.main-navigation li{
-	font-size: 18px;	
+.cutline {
+	border: 1px dashed #CCCCCC;
+	float: left;
+	margin-top: 80px;
+	position: absolute;
+	width: inherit;
 }
 
-.site-header table{
-	width: 140%
+#search {
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
 }
 
-.menu-toggle, button, input[type="submit"], input[type="button"], input[type="reset"]{
-	font-size: 12px;	
+#searchform {
+	background-color: transparent;
 }
 
-.widget-title{
-	font-size: 16px
+#s {
+	background-color: transparent;
+	border-bottom: 1px solid #CCC;
+	width: 160px;
 }
 
-div#mytag{
+#s:hover {
+	background-color: transparent;
+	border-bottom: 1px solid #33BFE5;
+}
+
+#searchsubmit i {
+	color: #919191;
+}
+
+#searchsubmit:hover i {
+	color: #47B4DA
+}
+
+#intropara {
+	margin-top: 5px;
+	line-height: 30px;
+	text-indent: 26px;
+}
+
+#intropara .emphasize{
+	font-size: 26px;
+}
+
+.post_list h2 a:hover {
+	color: #47B4DA
+}
+
+.widget a:hover {
+	color: #47B4DA;
+}
+
+a:HOVER {
+	color: #47B4DA;
+}
+
+#header {
+	/*border: #FF0000 1px solid;*/
+}
+
+#content {
+	/*border: #FF0000 1px solid;*/
+}
+#wrap{
+	display: inline;	
+}
+
+.widget_recent_entries ul li {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+html {
+	overflow: scroll;
+}
+
+.h3small{
 	font-size: 14px;
 }
-
-.widget-area .widget li{
-	font-size: 14px;
+ 
+.info a:hover{
+	color: #47B4DA
 }
 
-.widget-area .widget{
-	margin-bottom: 24px;
+.feed-tip{
+	display:table;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 666px;
 }
 
-.widget-area .widget h3{
-	margin-bottom: 0px; 
+.tablerow{
+ 	display: table-row; 	
 }
 
-.entry-header .entry-title{
+.navprev {
+	display: table-cell;
+	width: 50%;
+	text-align: left;
+} 
+
+.navnext{
+	display: table-cell;
+	width: 50%;
+	text-align: right;  
+}
+
+.comment_meta cite a:HOVER {
+    color: #47B4DA;
+}
+
+/*关于界面设计*/
+.text .about h3{
 	font-size: 16px;
+} 
+
+.text .about ul{
+	margin: 2px; 
 }
 
-.entry-content p{
-	font-size: 12px;	
+.text .about li{
+	  list-style: none outside none;
+	  line-height: 20px;
+	  white-space: nowrap;
+	  color: #666666;
+	  text-decoration: none;
+	  font-size: 14px;
 }
 
-div#mytag{
-  	line-height: 30px;
- }
+.text .about li span{
+	font-size: 16px;
+	color:#444444;
+	text-shadow: 0 1px 0 #EEEEEE; 
+}
+
+.text .about .emphasize{
+	font-size: 26px;
+}
+.text .about #dream {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.text .about .para{
+	margin-top: 5px;	
+}
+
+.about a{
+	color: #666666;
+}
+
+.about a:HOVER {
+	color: #47B4DA;
+}
+
+.current-menu-item{
+	border-bottom: solid 2px #33B5E5;
+}
