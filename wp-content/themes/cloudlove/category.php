@@ -16,7 +16,7 @@
             </div>
 		</div>
         <?php endwhile; ?>
-		<div class="navigation"><?php pagination($query_string); ?></div>
+		<?php wp_pagenavi(); ?>
 	</div>
 	<?php get_sidebar('category'); ?>
 <?php get_footer(); ?>

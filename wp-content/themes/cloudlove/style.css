@@ -65,7 +65,7 @@ Text Domain: twentyeleven
 	text-indent: 26px;
 }
 
-#intropara .emphasize{
+#intropara .emphasize {
 	font-size: 26px;
 }
 
@@ -81,15 +81,10 @@ a:HOVER {
 	color: #47B4DA;
 }
 
-#header {
-	/*border: #FF0000 1px solid;*/
-}
+ 
 
-#content {
-	/*border: #FF0000 1px solid;*/
-}
-#wrap{
-	display: inline;	
+#wrap {
+	display: inline;
 }
 
 .widget_recent_entries ul li {
@@ -102,79 +97,103 @@ html {
 	overflow: scroll;
 }
 
-.h3small{
+.h3small {
 	font-size: 14px;
 }
- 
-.info a:hover{
+
+.info a:hover {
 	color: #47B4DA
 }
 
-.feed-tip{
-	display:table;
+.feed-tip {
+	display: table;
 	margin-bottom: 10px;
 	padding: 10px;
 	width: 666px;
 }
 
-.tablerow{
- 	display: table-row; 	
+.tablerow {
+	display: table-row;
 }
 
 .navprev {
 	display: table-cell;
 	width: 50%;
 	text-align: left;
-} 
+}
 
-.navnext{
+.navnext {
 	display: table-cell;
 	width: 50%;
-	text-align: right;  
+	text-align: right;
 }
 
 .comment_meta cite a:HOVER {
-    color: #47B4DA;
+	color: #47B4DA;
 }
 
-/*关于界面设计*/
-.text .about h3{
+/************导航菜单*********************/
+
+#navigation .current-menu-item {
+	border-bottom: solid 2px #33B5E5;
+}
+
+#navigation .current-menu-item:hover {
+	border-bottom: none;
+}
+
+
+#navigation ul li:hover > a {
+    border-bottom: solid 2px #33B5E5;
+    background: none !important; 
+    color: rgb(68, 68, 68) !important;
+}
+
+#navigation ul li {
+	margin: 0px 8px !important;
+}
+
+
+
+/***************************关于界面设计*****************/
+.text .about h3 {
 	font-size: 16px;
-} 
-
-.text .about ul{
-	margin: 2px; 
 }
 
-.text .about li{
-	  list-style: none outside none;
-	  line-height: 20px;
-	  white-space: nowrap;
-	  color: #666666;
-	  text-decoration: none;
-	  font-size: 14px;
+.text .about ul {
+	margin: 2px;
 }
 
-.text .about li span{
+.text .about li {
+	list-style: none outside none;
+	line-height: 20px;
+	white-space: nowrap;
+	color: #666666;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.text .about li span {
 	font-size: 16px;
-	color:#444444;
-	text-shadow: 0 1px 0 #EEEEEE; 
+	color: #444444;
+	text-shadow: 0 1px 0 #EEEEEE;
 }
 
-.text .about .emphasize{
+.text .about .emphasize {
 	font-size: 26px;
 }
+
 .text .about #dream {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	display: block;
 }
 
-.text .about .para{
-	margin-top: 5px;	
+.text .about .para {
+	margin-top: 5px;
 }
 
-.about a{
+.about a {
 	color: #666666;
 }
 
@@ -182,9 +201,7 @@ html {
 	color: #47B4DA;
 }
 
-.current-menu-item{
-	border-bottom: solid 2px #33B5E5;
-}
+
 
 
 /************************************************************************************/
@@ -192,41 +209,46 @@ html {
 Back to top button 
 */
 #back-top {
-position: fixed;
-bottom: 120px;
-right: 5px;
+	position: fixed;
+	bottom: 120px;
+	right: 5px;
 }
+
 #back-top a {
-display: block;
-text-align: center;
-font: 12px/100% Arial, Helvetica, sans-serif;
-text-transform:capitalize;
-text-decoration: none;
-color: #bbb;
-/* background color transition */
--webkit-transition: 1s;
--moz-transition: 1s;
-transition: 1s;
+	display: block;
+	text-align: center;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
 }
+
 #back-top a:hover {
-color: #000;
+	color: #000;
 }
+
 /* arrow icon (span tag) */
 #back-top span {
-width: 70px;
-height: 70px;
-display: block;
-margin-bottom: 7px;
-background: #bbb url("http://127.0.0.1/wordpress/images/totop.png") no-repeat ;
-/* rounded corners */
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
-/* background color transition */
--webkit-transition: 1s;
--moz-transition: 1s;
-transition: 1s;
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-bottom: 7px;
+	background: #bbb url("/images/totop.png")
+		no-repeat;
+	/* rounded corners */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
 }
+
 #back-top a:hover span {
-background-color: #444;
+	background-color: #444;
 }
