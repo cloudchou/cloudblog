@@ -1,28 +1,13 @@
 jQuery(document).ready(
 		function() {
-			(function() {
-				var $mainNav = $("#navigation").children("ul");
-				$mainNav.on("mouseenter", "li", function() {
-					var $this = $(this), $subMenu = $this.children("ul");
-					if ($subMenu.length) {
-						$this.addClass("hover")
-					}
-					$subMenu.hide().stop(true, true).slideDown("fast")
-				}).on(
-						"mouseleave",
-						"li",
-						function() {
-							$(this).removeClass("hover").children("ul").stop(
-									true, true).slideUp("fast")
-						})
-			})();
-			(function() {
-				selectnav("nav", {
-					label : "[选择频道]",
-					nested : true,
-					indent : "-"
-				})
-			})()
+			 
+			var $mainNav = $("#navigation").children(".my").children("li");
+			$mainNav.hover(function(){
+				$(this).children("dl").slideDown(300)
+			}, function(){
+				$(this).children("dl").slideUp(100)
+			}) 
+		 
 		});
 window.selectnav = (function() {
 	var selectnav = function(element, options) {

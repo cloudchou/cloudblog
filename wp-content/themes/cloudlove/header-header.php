@@ -87,19 +87,19 @@ if ( is_single() ){
 		); ?>
 	    <ul class="my">
 	        <li><a href="#"><i class="iconfont">&#260;</i>关注我</a>
-	            <ul>
+	            <dl>
 	            	<!-- 
 	                <li><a href="http://feed.feedsky.com/JaneFun" rel="external nofollow" target="_blank"><i class="iconfont">&#483;</i>RSS订阅</a></li>
 	                 -->
 	                <?php get_option('janefun_weibo')  ?> 
 	                <?php if (get_option('janefun_weibo') == '显示') { ?>
-	                <li><a href="<?php echo stripslashes(get_option('janefun_weibo_url')); ?>" rel="external nofollow" target="_blank"><i class="iconfont">&#468;</i>新浪微博</a></li>
+	                <dd><a href="<?php echo stripslashes(get_option('janefun_weibo_url')); ?>" rel="external nofollow" target="_blank"><i class="iconfont">&#468;</i>新浪微博</a></dd>
 					<?php { echo ''; } ?><?php } else { } ?>
 					<?php if (get_option('janefun_tqq') == '显示') { ?>
-	                <li><a href="<?php echo stripslashes(get_option('janefun_tqq_url')); ?>" rel="external nofollow" target="_blank"><i class="iconfont">&#469;</i>腾讯微博</a></li>
+	                <dd><a href="<?php echo stripslashes(get_option('janefun_tqq_url')); ?>" rel="external nofollow" target="_blank"><i class="iconfont">&#469;</i>腾讯微博</a></dd>
 					<?php { echo ''; } ?>
 					<?php } else { } ?>
-	            </ul>
+	            </dl>
 	        </li>
 	    </ul>
     </div>

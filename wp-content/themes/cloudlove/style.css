@@ -81,8 +81,6 @@ a:HOVER {
 	color: #47B4DA;
 }
 
- 
-
 #wrap {
 	display: inline;
 }
@@ -133,7 +131,6 @@ html {
 }
 
 /************导航菜单*********************/
-
 #navigation .current-menu-item {
 	border-bottom: solid 2px #33B5E5;
 }
@@ -142,18 +139,22 @@ html {
 	border-bottom: none;
 }
 
-
-#navigation ul li:hover > a {
-    border-bottom: solid 2px #33B5E5;
-    background: none !important; 
-    color: rgb(68, 68, 68) !important;
+#navigation ul li:hover>a {
+	border-bottom: solid 2px #33B5E5;
+	background: none !important;
+	color: rgb(68, 68, 68) !important;
 }
 
 #navigation ul li {
 	margin: 0px 8px !important;
 }
 
-
+#navigation .my li dl {
+	display: none;
+	position: absolute;
+	width: 100px;
+	z-index: 1;
+}
 
 /***************************关于界面设计*****************/
 .text .about h3 {
@@ -201,9 +202,6 @@ html {
 	color: #47B4DA;
 }
 
-
-
-
 /************************************************************************************/
 /*
 Back to top button 
@@ -237,8 +235,7 @@ Back to top button
 	height: 70px;
 	display: block;
 	margin-bottom: 7px;
-	background: #bbb url("/images/totop.png")
-		no-repeat;
+	background: #bbb url("/images/totop.png") no-repeat;
 	/* rounded corners */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
