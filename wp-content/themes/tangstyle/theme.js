@@ -3,12 +3,68 @@ jQuery(document).ready(
 			 
 			var $mainNav = $("#navigation").children(".my").children("li");
 			$mainNav.hover(function(){
-				$(this).children("dl").slideDown(300)
+				$(this).children("dl").slideDown(300);
 			}, function(){
-				$(this).children("dl").slideUp(100)
-			}) 
-		 
+				$(this).children("dl").slideUp(100);
+			}); 
+		    
 		});
+
+jQuery(document).ready(
+	function(){
+		var $input=$("#searchform").children("#s");
+		var $search=$("#searchform").children("#searchsubmit");
+		var $initText="搜一把"; 
+		if($input.val()==""){
+			$input.val($initText);
+						
+		}
+		if($input.val()==$initText){
+			$search.attr('disabled',true);
+			$input.removeClass('enabletext').addClass('disabletext');
+		}		
+		
+		$input.each(
+			function(){
+				var txt = $(this).val();
+				$(this).focus(
+						function(){
+							if(txt === $initText) 
+								$(this).val(""); 
+							$(this).removeClass('disabletext').addClass('enabletext');
+						}				
+				)
+				.blur(
+						function(){
+							if($(this).val() == "") 
+								$(this).val($initText);
+							if($(this).val()==$initText){
+								$(this).removeClass('enabletext').addClass('disabletext');
+								$search.attr('disabled',true);								
+							}
+							txt=$(this).val();
+						}
+				)
+				.on('input',
+						function(){
+							if($(this).val()==$initText){
+								$(this).removeClass('enabletext').addClass('disabletext');
+								$search.attr('disabled',true);								
+							}else{
+								$search.removeAttr("disabled");
+							}	
+							txt=$(this).val();
+							console.log('dd');
+							console.log(txt);
+						}
+				);
+				
+			}
+		);
+	}	
+);
+
+
 window.selectnav = (function() {
 	var selectnav = function(element, options) {
 		element = document.getElementById(element);
@@ -108,6 +164,7 @@ window.selectnav = (function() {
 		selectnav(element, options)
 	}
 })();
+
 jQuery(document).ready(function() {
 	jQuery('.post_list h2 a').click(function() {
 		jQuery(this).text('页面载入中...');

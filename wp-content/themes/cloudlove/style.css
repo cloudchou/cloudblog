@@ -29,6 +29,7 @@ Text Domain: twentyeleven
 	width: inherit;
 }
 
+/***************搜索栏样式******************/
 #search {
 	float: right;
 	margin-top: 20px;
@@ -43,14 +44,14 @@ Text Domain: twentyeleven
 #s {
 	background-color: transparent;
 	border-bottom: 1px solid #CCC;
-	width: 160px;
+	width: 160px;	 
 }
 
 #s:hover {
 	background-color: transparent;
 	border-bottom: 1px solid #33BFE5;
 }
-
+ 
 #searchsubmit i {
 	color: #919191;
 }
@@ -58,6 +59,18 @@ Text Domain: twentyeleven
 #searchsubmit:hover i {
 	color: #47B4DA
 }
+
+.disabletext{
+	color:#999999;
+}
+
+.enabletext{
+	color:#333333;
+}
+
+
+
+
 
 #intropara {
 	margin-top: 5px;
@@ -110,6 +123,14 @@ html {
 	width: 666px;
 }
 
+
+
+.comment_meta cite a:HOVER {
+	color: #47B4DA;
+}
+
+/************单页文章 上一篇 下一篇样式*********************/
+
 .tablerow {
 	display: table-row;
 }
@@ -125,11 +146,6 @@ html {
 	width: 50%;
 	text-align: right;
 }
-
-.comment_meta cite a:HOVER {
-	color: #47B4DA;
-}
-
 /************导航菜单*********************/
 #navigation .current-menu-item {
 	border-bottom: solid 2px #33B5E5;
@@ -149,11 +165,41 @@ html {
 	margin: 0px 8px !important;
 }
 
+/************导航菜单关注我样式*********************/
 #navigation .my li dl {
 	display: none;
 	position: absolute;
 	width: 100px;
 	z-index: 1;
+	background:  #D6D6D6;
+	padding-top: 1px;
+	
+}
+
+#navigation .my li dl {
+	display: none;
+	position: absolute;
+	width: 88px;
+	z-index: 1;
+	background:  #D6D6D6;
+}
+
+#navigation .my li dl dd {
+	margin: 0px 2px 0px 2px;
+	border-bottom: solid 1px #666666;
+}
+
+#navigation .my li dl dd  a{ 
+	padding: 5px 4px 5px 10px !important;	
+}
+
+#navigation .my li dl dd a:HOVER { 
+	background-color: transparent; 
+	
+}
+
+#navigation .my li dl dd { 
+	text-align: left; 
 }
 
 /***************************关于界面设计*****************/
