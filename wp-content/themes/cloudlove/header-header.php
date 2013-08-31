@@ -43,8 +43,8 @@ if ( is_single() ){
 <meta name="keywords" content="<?php echo rtrim($keywords,','); ?>" />
 <?php } ?>
 <?php if ( is_home() ) { ?>
-<meta name="description" content="<?php echo stripslashes(get_option('tang_description')); ?>" />
-<meta name="keywords" content="<?php echo stripslashes(get_option('tang_keywords')); ?>" />
+<meta name="description" content="<?php echo stripslashes(get_option('janefun_description')); ?>" />
+<meta name="keywords" content="<?php echo stripslashes(get_option('janefun_keywords')); ?>" />
 <?php } ?>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="pinggu-site-verification" content="b1f55ff264fcc37f94d2789a4a6f11fc" />
