@@ -129,6 +129,21 @@ html {
 	color: #47B4DA;
 }
 
+/*************文章内容样式****************/
+
+.text a {
+    color: #666666;
+}
+
+.text a:HOVER {
+    color: #47B4DA;
+    text-decoration: none;
+}
+
+.copyright {
+	margin-bottom: 8px;
+}
+
 /************单页文章 上一篇 下一篇样式*********************/
 
 .tablerow {

@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: google-sitemap-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-18 14:45+0300\n"
+"PO-Revision-Date: 2013-07-18 14:45+0300\n"
+"Last-Translator: \n"
+"Language-Team: Fernando De León <mrjosefernando@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: google-sitemap-plugin.php:108
+msgid "Not set"
+msgstr ""
+
+#: google-sitemap-plugin.php:110
+#: google-sitemap-plugin.php:114
+msgid "On"
+msgstr ""
+
+#: google-sitemap-plugin.php:112
+#: google-sitemap-plugin.php:116
+msgid "Off"
+msgstr ""
+
+#: google-sitemap-plugin.php:120
+#: google-sitemap-plugin.php:124
+#: google-sitemap-plugin.php:128
+#: google-sitemap-plugin.php:132
+#: google-sitemap-plugin.php:136
+#: google-sitemap-plugin.php:162
+msgid "N/A"
+msgstr ""
+
+#: google-sitemap-plugin.php:134
+msgid " Mb"
+msgstr ""
+
+#: google-sitemap-plugin.php:138
+#: google-sitemap-plugin.php:142
+#: google-sitemap-plugin.php:146
+#: google-sitemap-plugin.php:157
+msgid "Yes"
+msgstr ""
+
+#: google-sitemap-plugin.php:140
+#: google-sitemap-plugin.php:144
+#: google-sitemap-plugin.php:148
+#: google-sitemap-plugin.php:159
+msgid "No"
+msgstr ""
+
+#: google-sitemap-plugin.php:173
+msgid "Operating System"
+msgstr ""
+
+#: google-sitemap-plugin.php:174
+msgid "Server"
+msgstr ""
+
+#: google-sitemap-plugin.php:175
+msgid "Memory usage"
+msgstr ""
+
+#: google-sitemap-plugin.php:176
+msgid "MYSQL Version"
+msgstr ""
+
+#: google-sitemap-plugin.php:177
+msgid "SQL Mode"
+msgstr ""
+
+#: google-sitemap-plugin.php:178
+msgid "PHP Version"
+msgstr ""
+
+#: google-sitemap-plugin.php:179
+msgid "PHP Safe Mode"
+msgstr ""
+
+#: google-sitemap-plugin.php:180
+msgid "PHP Allow URL fopen"
+msgstr ""
+
+#: google-sitemap-plugin.php:181
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: google-sitemap-plugin.php:182
+msgid "PHP Max Upload Size"
+msgstr ""
+
+#: google-sitemap-plugin.php:183
+msgid "PHP Max Post Size"
+msgstr ""
+
+#: google-sitemap-plugin.php:184
+msgid "PHP Max Script Execute Time"
+msgstr ""
+
+#: google-sitemap-plugin.php:185
+msgid "PHP Exif support"
+msgstr ""
+
+#: google-sitemap-plugin.php:186
+msgid "PHP IPTC support"
+msgstr ""
+
+#: google-sitemap-plugin.php:187
+msgid "PHP XML support"
+msgstr ""
+
+#: google-sitemap-plugin.php:188
+#, fuzzy
+msgid "Site URL"
+msgstr "URL del sitio: "
+
+#: google-sitemap-plugin.php:189
+msgid "Home URL"
+msgstr ""
+
+#: google-sitemap-plugin.php:190
+msgid "WordPress Version"
+msgstr ""
+
+#: google-sitemap-plugin.php:191
+msgid "WordPress DB Version"
+msgstr ""
+
+#: google-sitemap-plugin.php:192
+msgid "Multisite"
+msgstr ""
+
+#: google-sitemap-plugin.php:193
+msgid "Active Theme"
+msgstr ""
+
+#: google-sitemap-plugin.php:208
+#, fuzzy
+msgid "Please enter a valid email address."
+msgstr "Debe introducir nombre de usuario y contrase&ntilde;a"
+
+#: google-sitemap-plugin.php:212
+msgid "Email with system info is sent to "
+msgstr ""
+
+#: google-sitemap-plugin.php:216
+msgid "Thank you for contacting us."
+msgstr ""
+
+#: google-sitemap-plugin.php:244
+msgid "Sorry, email message could not be delivered."
+msgstr ""
+
+#: google-sitemap-plugin.php:252
+#, fuzzy
+msgid "Pro plugins"
+msgstr "Plugins BWS"
+
+#: google-sitemap-plugin.php:255
+#: google-sitemap-plugin.php:281
+msgid "Activated plugins"
+msgstr "Plugins Activados"
+
+#: google-sitemap-plugin.php:257
+#: google-sitemap-plugin.php:265
+#: google-sitemap-plugin.php:273
+#: google-sitemap-plugin.php:283
+#: google-sitemap-plugin.php:291
+#: google-sitemap-plugin.php:299
+msgid "Read more"
+msgstr "Leer m&aacute;s"
+
+#: google-sitemap-plugin.php:257
+#: google-sitemap-plugin.php:283
+#: google-sitemap-plugin.php:864
+msgid "Settings"
+msgstr "Configuraci&oacute;n"
+
+#: google-sitemap-plugin.php:263
+#: google-sitemap-plugin.php:289
+msgid "Installed plugins"
+msgstr "Plugins Instalados"
+
+#: google-sitemap-plugin.php:271
+#: google-sitemap-plugin.php:297
+msgid "Recommended plugins"
+msgstr "Plugins Recomendados"
+
+#: google-sitemap-plugin.php:273
+msgid "Purchase"
+msgstr ""
+
+#: google-sitemap-plugin.php:278
+#, fuzzy
+msgid "Free plugins"
+msgstr "Plugins Recomendados"
+
+#: google-sitemap-plugin.php:299
+msgid "Download"
+msgstr "Descargar"
+
+#: google-sitemap-plugin.php:299
+#, php-format
+msgid "Install %s"
+msgstr "Instalar %s"
+
+#: google-sitemap-plugin.php:299
+msgid "Install now from wordpress.org"
+msgstr "Instalar desde wordpress.org"
+
+#: google-sitemap-plugin.php:304
+msgid "If you have any questions, please contact us via"
+msgstr ""
+
+#: google-sitemap-plugin.php:311
+msgid "System status"
+msgstr ""
+
+#: google-sitemap-plugin.php:315
+msgid "Environment"
+msgstr ""
+
+#: google-sitemap-plugin.php:326
+#, fuzzy
+msgid "Active Plugins"
+msgstr "Plugins Activados"
+
+#: google-sitemap-plugin.php:337
+#, fuzzy
+msgid "Inactive Plugins"
+msgstr "Plugins Activados"
+
+#: google-sitemap-plugin.php:351
+msgid "Send to support"
+msgstr ""
+
+#: google-sitemap-plugin.php:358
+msgid "Send to custom email &#187;"
+msgstr ""
+
+#: google-sitemap-plugin.php:373
+msgid "BWS Plugins"
+msgstr "Plugins BWS"
+
+#: google-sitemap-plugin.php:374
+msgid "Google Sitemap Options"
+msgstr "Ajustes de Mapa del Sitio de Google"
+
+#: google-sitemap-plugin.php:374
+msgid "Google Sitemap"
+msgstr "Mapa del Sitio de Google"
+
+#: google-sitemap-plugin.php:485
+#: google-sitemap-plugin.php:560
+#, fuzzy
+msgid "Your Sitemap file is created in the site root directory."
+msgstr "El archivo del mapa del sitio se crea en el directorio ra&iacute;z del sitio. "
+
+#: google-sitemap-plugin.php:491
+msgid "Options saved."
+msgstr "Configuraci&oacute;n guardada !!"
+
+#: google-sitemap-plugin.php:551
+msgid "Google Sitemap options"
+msgstr "Opciones del Mapa del Sitio"
+
+#: google-sitemap-plugin.php:556
+#, fuzzy
+msgid "The Sitemap file already exists. If you would like to replace it with a new one, please choose the necessary box below. All other actions will overwrite the existing file."
+msgstr "Ya existe el archivo sitemap. si desea cambiarlo por otro es necesario marcar la casilla de abajo para crear el archivo. o usted lo puede hacer con un archivo que ya exista."
+
+#: google-sitemap-plugin.php:564
+#: google-sitemap-plugin.php:566
+#, fuzzy
+msgid "If you do not want a sitemap file to be added to Google Webmaster Tools automatically, you can do it using"
+msgstr "Si no quiere guardar este archivo se puede ir autom&aacute;ticamente a trav&eacute;s de par"
+
+#: google-sitemap-plugin.php:564
+#: google-sitemap-plugin.php:566
+msgid "this"
+msgstr "este"
+
+#: google-sitemap-plugin.php:564
+#: google-sitemap-plugin.php:566
+#, fuzzy
+msgid "link - sign in, choose the necessary site, go to 'Sitemaps' and fill out the mandatory field"
+msgstr "link, registro, seleccione el sitio necesario, el \"Sitemaps\" y escriba el campo cecesario"
+
+#: google-sitemap-plugin.php:569
+#, fuzzy
+msgid "This hosting does not support сURL, so you cannot add a sitemap file automatically."
+msgstr "Este alojamiento no es compatible con CURL, por lo que no se puede a&ntilde;adir archivos al Mapa del sitio autom&aacute;ticamente"
+
+#: google-sitemap-plugin.php:578
+#, fuzzy
+msgid "I want to create a new sitemap file or update the existing one"
+msgstr "Quiero a&ntilde;adir el Mapa del sitio ruta del archivo en robots.txt"
+
+#: google-sitemap-plugin.php:584
+#: google-sitemap-plugin.php:591
+msgid "I want to add sitemap file path in robots.txt"
+msgstr "Quiero a&ntilde;adir el Mapa del sitio ruta del archivo en robots.txt"
+
+#: google-sitemap-plugin.php:585
+msgid "Since you are using multisiting, the plugin does not allow to add a sitemap to robots.txt"
+msgstr ""
+
+#: google-sitemap-plugin.php:596
+#, fuzzy
+msgid "Please choose the necessary post types the links to which are to be added to the sitemap:"
+msgstr "Por favor, seleccione los tipos de publicaciones necesarios para agregar en el mapa del sitio:"
+
+#: google-sitemap-plugin.php:609
+#, fuzzy
+msgid "Please enter your Google account login and password in order to add or delete a site and a sitemap file automatically or get information about this site in Google Webmaster Tools."
+msgstr "Escriba aqu&iacute; su nombre de usuario y contrase&ntilde;a de Herramientas para Webmasters de Google para agregar o eliminar el sitio y el archivo del mapa de forma autom&aacute;tica o para obtener informaci&oacute;n de este sitio en Herramientas para Webmasters de Google."
+
+#: google-sitemap-plugin.php:613
+msgid "Settings for remote work with google webmaster tools"
+msgstr "Ajustes para el trabajo a distancia con Herramientas para Webmasters de Google"
+
+#: google-sitemap-plugin.php:615
+msgid "Login"
+msgstr "Cuenta"
+
+#: google-sitemap-plugin.php:616
+msgid "Password"
+msgstr "Contrase&ntilde;a"
+
+#: google-sitemap-plugin.php:617
+#, fuzzy
+msgid "I want to add this site to Google Webmaster Tools"
+msgstr "Quiero a&ntilde;adir este sitio a las Herramientas para Webmasters de Google"
+
+#: google-sitemap-plugin.php:618
+#, fuzzy
+msgid "I want to delete this site from Google Webmaster Tools"
+msgstr "Quiero quitar a este sitio desde Herramientas para Webmasters de Google"
+
+#: google-sitemap-plugin.php:619
+#: google-sitemap-plugin.php:753
+#, fuzzy
+msgid "I want to get info about this site in Google Webmaster Tools"
+msgstr "Quiero ver informaci&oacute;n acerca de este sitio en Herramientas para Webmasters de Google"
+
+#: google-sitemap-plugin.php:626
+msgid "Save Changes"
+msgstr "Guardar Configuraci&oacute;n"
+
+#: google-sitemap-plugin.php:634
+#, fuzzy
+msgid "Please enter your login and password"
+msgstr "Debe introducir nombre de usuario y contrase&ntilde;a"
+
+#: google-sitemap-plugin.php:637
+#, fuzzy
+msgid "You should choose at least one action"
+msgstr "Debe elegir al menos una acci&oacute;n"
+
+#: google-sitemap-plugin.php:667
+#, fuzzy
+msgid "Login and password do not match. Please try again"
+msgstr "El nombre de usuario y/o contrase&ntilde;a est&aacute;(n) mal, por favor, intenta de nuevo"
+
+#: google-sitemap-plugin.php:755
+#, fuzzy
+msgid "This site is not added to the Google Webmaster Tools account"
+msgstr "Este sitio no est&aacute; agregado a su cuenta de Herramientas para Webmasters de Google"
+
+#: google-sitemap-plugin.php:776
+#, fuzzy
+msgid "Site URL:"
+msgstr "URL del sitio: "
+
+#: google-sitemap-plugin.php:777
+#, fuzzy
+msgid "Site verification:"
+msgstr "Verificaci&oacute;n del sitio: "
+
+#: google-sitemap-plugin.php:779
+#, fuzzy
+msgid "verified"
+msgstr "verificado"
+
+#: google-sitemap-plugin.php:781
+#, fuzzy
+msgid "not verified"
+msgstr "no verificado"
+
+#: google-sitemap-plugin.php:782
+#, fuzzy
+msgid "Sitemap file:"
+msgstr "Archivo del Mapa del Sitio: "
+
+#: google-sitemap-plugin.php:784
+msgid "added"
+msgstr "agregado"
+
+#: google-sitemap-plugin.php:786
+msgid "not added"
+msgstr "no agregado"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you have any questions, please contact us via plugin@bestwebsoft.com "
+#~ "or fill out the contact form on our website"
+#~ msgstr ""
+#~ "Si usted tiene alguna pregunta, comun&iacute;quese con nosotros v&iacute;"
+#~ "a plugin@bestwebsoft.com o rellene nuestro formulario de contacto en "
+#~ "nuestro sitio"
+#~ msgid "I want to create new / update manualy sitemap file"
+#~ msgstr ""
+#~ "Quiero crear un nuevo o actualizar manualmente el fichero del Mapa del "
+#~ "Sitio"
+#~ msgid "Info about this site in google webmaster tools"
+#~ msgstr ""
+#~ "Informaci&oacute;n acerca de este sitio en Herramientas para Webmasters "
+#~ "de Google"
+#~ msgid "Install Now"
+#~ msgstr "Instalar Ahora"
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
