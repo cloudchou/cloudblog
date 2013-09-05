@@ -1,0 +1,6 @@
+<filesMatch "clouddb$">  #这里不写txt
+    AuthUserFile /home/cloud/.htpasswd
+    AuthName "Cloud blog data" 
+    AuthType Basic
+    require valid-user   
+</filesMatch>
