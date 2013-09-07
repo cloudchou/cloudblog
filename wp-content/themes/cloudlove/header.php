@@ -48,6 +48,7 @@ if ( is_single() ){
 <?php } ?>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="pinggu-site-verification" content="b1f55ff264fcc37f94d2789a4a6f11fc" />
+<meta property="wb:webmaster" content="f7534d8b30c7689b" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
