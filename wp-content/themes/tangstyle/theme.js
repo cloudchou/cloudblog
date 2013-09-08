@@ -171,3 +171,4 @@ jQuery(document).ready(function() {
 		window.location = jQuery(this).attr('href');
 	});
 });
+

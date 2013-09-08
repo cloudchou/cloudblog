@@ -60,7 +60,7 @@ if ( is_single() ){
 ?>
 <script src="<?php bloginfo('template_directory'); ?>/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/theme.js"></script>
-
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1832578"></script> 
 
 </head>
 
