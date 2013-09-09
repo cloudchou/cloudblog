@@ -308,6 +308,7 @@ Back to top button
 	background-color: #444;
 }
 
+/******************************友言评论相关**********************/
 div#text-3 {
  border: none; 
  background:none;
@@ -346,4 +347,13 @@ a#uyan_count_unit {
 a#uyan_count_unit:Hover {
   color: #47B4DA !important;
   text-decoration: none;
+}
+
+/****************首页正文******************/
+.meta a {
+    color: #666666;
+}
+.meta a:Hover {
+    color: #47B4DA;
+    text-decoration: none;
 }
