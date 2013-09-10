@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>" />
 <?php if ( is_home() ) { ?><title><?php bloginfo('name'); ?></title><?php } ?>
@@ -61,7 +61,7 @@ if ( is_single() ){
 <script src="<?php bloginfo('template_directory'); ?>/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/theme.js"></script>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1832578"></script> 
-
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -103,6 +103,9 @@ if ( is_single() ){
 	            </dl>
 	        </li>
 	    </ul>
+        <div height="33" class="follow_btn">
+          <wb:follow-button uid="2991975565" type="gray_1" width="67" height="33" ></wb:follow-button>
+        </div>
     </div>
     <div id="search">
 	    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
