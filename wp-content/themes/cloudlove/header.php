@@ -103,15 +103,6 @@ if ( is_single() ){
 	            </dl>
 	        </li>
 	    </ul>
-        <div height="33" class="follow_btn">
-          <wb:follow-button uid="2991975565" type="gray_1" width="67" height="33" ></wb:follow-button>
-        </div>
-    </div>
-    <div id="search">
-	    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
-		    <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" size="30" />
-			<button type="submit" id="searchsubmit"><i class="iconfont">&#337;</i></button>
-		</form>
     </div>
 </div>
 <div id="content">

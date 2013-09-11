@@ -103,9 +103,6 @@ if ( is_single() ){
 	            </dl>
 	        </li>
 	    </ul>
-        <div height="33" class="follow_btn">
-          <wb:follow-button uid="2991975565" type="gray_1" width="67" height="33" ></wb:follow-button>
-        </div>
     </div>
     <div id="search">
 	    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
