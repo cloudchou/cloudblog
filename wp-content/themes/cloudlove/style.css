@@ -362,8 +362,8 @@ a#uyan_count_unit:Hover {
     display: inline;
 }
 
-.textwidget {
-    border-top: 1px solid #ccc;
+.textwidget ul {
+    border-top: 1px solid #ccc !important;
 }
 
 .textwidget a {
