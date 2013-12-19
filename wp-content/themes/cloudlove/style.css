@@ -359,9 +359,13 @@ a#uyan_count_unit:Hover {
 }
 /**********************¹Ø×¢°´Å¥******************/
 .follow_btn{
-display: inline;
+    display: inline;
+}
+
+.textwidget {
+    border-top: 1px solid #ccc;
 }
 
 .textwidget a {
-color: #666666;
+    color: #666666;
 }
