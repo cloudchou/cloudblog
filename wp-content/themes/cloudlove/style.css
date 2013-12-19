@@ -361,3 +361,7 @@ a#uyan_count_unit:Hover {
 .follow_btn{
 display: inline;
 }
+
+.textwidget a {
+color: #666666;
+}
