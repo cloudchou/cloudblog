@@ -26,7 +26,7 @@ Tags:  gray,silver,two-columns,right-sidebar,fixed-width,flexible-width,custom-m
 	width: inherit;
 }
 
-/***************ËÑË÷À¸ÑùÊ½******************/
+/***************ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½******************/
 #search {
 	float: right;
 	margin-top: 20px;
@@ -126,7 +126,7 @@ html {
 	color: #47B4DA;
 }
 
-/*************ÎÄÕÂÄÚÈÝÑùÊ½****************/
+/*************ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½****************/
 
 .text a {
     color: #666666;
@@ -141,7 +141,7 @@ html {
 	margin-bottom: 8px;
 }
 
-/************µ¥Ò³ÎÄÕÂ ÉÏÒ»Æª ÏÂÒ»ÆªÑùÊ½*********************/
+/************ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ò»Æª ï¿½ï¿½Ò»Æªï¿½ï¿½Ê½*********************/
 
 .tablerow {
 	display: table-row;
@@ -158,7 +158,7 @@ html {
 	width: 50%;
 	text-align: right;
 }
-/************µ¼º½²Ëµ¥*********************/
+/************ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½*********************/
 #navigation .current-menu-item {
 	border-bottom: solid 2px #33B5E5;
 }
@@ -177,7 +177,7 @@ html {
 	margin: 0px 8px !important;
 }
 
-/************µ¼º½²Ëµ¥¹Ø×¢ÎÒÑùÊ½*********************/
+/************ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½Ê½*********************/
 #navigation .my li dl {
 	display: none;
 	position: absolute;
@@ -214,7 +214,7 @@ html {
 	text-align: left; 
 }
 
-/***************************¹ØÓÚ½çÃæÉè¼Æ*****************/
+/***************************ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*****************/
 .text .about h3 {
 	font-size: 16px;
 }
@@ -308,7 +308,7 @@ Back to top button
 	background-color: #444;
 }
 
-/******************************ÓÑÑÔÆÀÂÛÏà¹Ø**********************/
+/******************************ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½**********************/
 div#text-3 {
  border: none; 
  background:none;
@@ -349,7 +349,7 @@ a#uyan_count_unit:Hover {
   text-decoration: none;
 }
 
-/****************Ê×Ò³ÕýÎÄ******************/
+/****************ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½******************/
 .meta a {
     color: #666666;
 }
@@ -357,7 +357,7 @@ a#uyan_count_unit:Hover {
     color: #47B4DA;
     text-decoration: none;
 }
-/**********************¹Ø×¢°´Å¥******************/
+/**********************å…³æ³¨æŒ‰é’®******************/
 .follow_btn{
     display: inline;
 }
@@ -368,4 +368,24 @@ a#uyan_count_unit:Hover {
 
 .textwidget a {
     color: #666666;
+}
+
+.text p{
+	padding-bottom: 0px;
+	line-height: 26px;
+}
+
+.text h2{
+	line-height: 32px;
+}
+
+.text ul li{
+ 	list-style-type: none;
+}
+
+.wp_syntax{
+	width: 90% !important;
+	margin-left: 20px !important;
+	margin-bottom: 5px !important;
+	margin-top:  5px !important;
 }
