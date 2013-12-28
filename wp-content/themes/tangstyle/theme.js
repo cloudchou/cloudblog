@@ -167,7 +167,7 @@ window.selectnav = (function() {
 
 jQuery(document).ready(function() {
 	jQuery('.post_list h2 a').click(function() {
-		jQuery(this).text('页面载入中...');
+		jQuery(this).text('努力加载中...');
 		window.location = jQuery(this).attr('href');
 	});
 });
