@@ -3,7 +3,7 @@ Contributors: Wumii Team (team[at]wumii.com)
 Tags: wumii, 无觅, 无觅网, related, related posts, 相关, 相关文章, similar, similar posts, plugin, widget
 Requires at least: 2.5.1
 Tested up to: 3.6-beta1
-Stable tag: 1.0.5.6
+Stable tag: 1.0.5.7
 
 根据用户行为和文章内容显示有图片的相关文章 | Displays related posts with thumbnails that users will most likely click on it.
 
@@ -70,6 +70,10 @@ OR
 1. **天涯海阁 - 关注、分享web2.0资讯及服务**
 
 == Changelog ==
+
+= 1.0.5.7 =
+###### 2013-09-29 ######
+* 支持启用无觅评论插件
 
 = 1.0.5.6 =
 ###### 2013-04-26 ######

@@ -95,11 +95,83 @@
     .wumii_postbox_inside iframe {
         margin: 6px 0;
     }
+    
+    .wumii_notification {
+        display: none;
+        background-color: #fff4d6;
+    }
+    .wumii_notification p {
+        padding: 10px;
+        color: #535353;
+    }
+    .wumii_notification a {
+        color: #ed6102;
+        text-decoration: underline;
+    }
+    .wumii_notification .close {
+        float: right;
+        text-decoration: none;
+    }
 </style>
 
 <div class="wrap">
     <a href="http://www.wumii.com/" target="_blank"><div id="wumiPluginLogo" class="icon32"></div></a>
     <h2 class="wumii_plugin_title">无觅相关文章插件</h2>
+    
+    <div class="wumii_notification" id="wumiiNofitication">
+        <p><a href="javascript:void(0);" id="closeNotification" class="close">&#10006;</a>重要告知，您的站点现可轻松制作一个APP，无需编程知识而且免费，详情请见<a href="http://www.wumii.com/auto_app/home" target="_blank">无觅App工场</a></p>
+    </div>
+    <script type="text/javascript">
+    (function() {
+        var Cookie = {
+            add: function(name, value) {
+                document.cookie = name + "=" + value;
+            },
+            
+            get: function(name) {
+                var cookies = document.cookie;
+                var cookies_arr = cookies.split("; ");
+                for (var i = 0, len = cookies_arr.length; i < len; i++) {
+                    var cookie = cookies_arr[i].split("=");
+                    if (cookie[0] == name) {
+                        return cookie[1];
+                    }
+                 }
+                 return "";
+             }
+        };
+
+        function addEvent(o, t, f){
+            if (o.addEventListener) {
+                o.addEventListener(t, f, false);
+            } else {
+                if (o.attachEvent) {
+                    o.attachEvent('on' + t, function() {
+                        f.apply(o, arguments);
+                    });
+                } else {
+                    o['on' + t] = f;
+                }
+            }
+        }
+        
+        var NOTIFICATION_COOKIE_NAME = "hideNotification",
+            notification_cookie = Cookie.get(NOTIFICATION_COOKIE_NAME);
+        var notification = document.getElementById("wumiiNofitication"),
+            closeBtn = document.getElementById("closeNotification");
+        if (!notification_cookie
+                || notification_cookie == 0) {
+            notification.style.display = "block";
+        }
+        
+        addEvent(closeBtn, "click", function() {
+           Cookie.add(NOTIFICATION_COOKIE_NAME, 1); 
+           notification.style.display = "none";
+        });
+        
+    })();
+    </script>
+    
     <div id="wumiiPostboxContainer" class="postbox-container">
         <div class="metabox-holder wumii_metabox_holder">
             <div class="meta-box-sortables ui-sortable wumii_sortable">
@@ -160,6 +232,14 @@
                                     </div>
                                     <br />
                                     <span class="wumii_option_tip">在极少情况下，如果你认为无觅脚本减慢了页面上某些元素的加载，你可以开启此选项。但与此同时，开启后会减慢相关文章的加载。</span>
+                                </li>
+	                            <li>
+                                    <span class="wumii_option_name"><font color="red" size="2">new</font>启用无觅评论插件：</span>
+                                    <div class="wumii_options">
+                                        <input type="radio" name="wumii_comment_plugin_enabled" value="1" {{wumii_comment_plugin_enabled_checked_1}} />YES
+                                        <input type="radio" name="wumii_comment_plugin_enabled" value="0" {{wumii_comment_plugin_enabled_checked_0}} />NO
+                                    </div>
+                                    <br />
                                 </li>
                             </ul>
                         </div>

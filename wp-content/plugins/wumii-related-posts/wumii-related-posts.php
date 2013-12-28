@@ -3,7 +3,7 @@
 Plugin Name: 无觅相关文章插件
 Plugin URI: http://wordpress.org/extend/plugins/wumii-related-posts/
 Author: Wumii Team
-Version: 1.0.5.6
+Version: 1.0.5.7
 Author URI: http://www.wumii.com
 Description: 利用数据挖掘的技术，智能匹配相关文章，并以图片形式展示。
  
@@ -21,7 +21,7 @@ if (!class_exists('WumiiRelatedPosts')) {
         const WUMII_DEBUG = false;
         const WUMII_SERVER = 'http://widget.wumii.cn';
 
-        const VERSION = '1.0.5.6';
+        const VERSION = '1.0.5.7';
         const ADMIN_OPTION_NAME = 'wumii_admin_options';
         const PLUGIN_PATH = '/wp-content/plugins/wumii-related-posts';
         
@@ -31,6 +31,7 @@ if (!class_exists('WumiiRelatedPosts')) {
         const DISPLAY_IN_FEED = 'display_in_feed';
         const ENABLE_CUSTOM_POS = 'enable_custom_pos';
         const SCRIPT_IN_FOOTER = 'script_in_footer';
+        const WUMII_COMMENT_PLUGIN_ENABLED = 'wumii_comment_plugin_enabled';
         
         // this containter is a stack and its size is 1.
         const NOTIFY_MESSAGE_CONTAINER = 'wumii_notify_message_container';
@@ -65,6 +66,7 @@ if (!class_exists('WumiiRelatedPosts')) {
             
             // get_bloginfo('url') deprecated since WordPress 3.0.0.
             $this->sitePrefix = function_exists('home_url') ? home_url() : get_bloginfo('url');
+            $this->replaceCommentBox();
         }
         
         function getOrigTitle() {
@@ -292,7 +294,7 @@ WUMII_HOOK;
         var wumiiEnableCustomPos = $enableCustomPos;
         var wumiiParams = "$queryParams";
         var wumiiCategories = $jsonCategories;
-    //--></script><script type="text/javascript" src="$server/ext/relatedItemsWidget"></script><a href="http://www.wumii.com/widget/relatedItems" rel="external nofollow" style="border:0;"><img src="http://static.wumii.cn/images/pixel.png" rel="external nofollow" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" /></a>
+    //--></script><script type="text/javascript" src="$server/ext/relatedItemsWidget"></script><a href="http://www.wumii.com/widget/relatedItems" style="border:0;"><img src="http://static.wumii.cn/images/pixel.png" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" /></a>
 </p>
 WUMII_SCRIPT;
             
@@ -356,11 +358,12 @@ WUMII_SCRIPT;
         
         private function resetAdminOptions () {
             $this->adminOptions = array(
-                self::NUM_POSTS => 4,
+                self::NUM_POSTS => 8,
                 self::SINGLE_PAGE_ONLY => true,
                 self::DISPLAY_IN_FEED => true,
                 self::ENABLE_CUSTOM_POS => false,
-                self::SCRIPT_IN_FOOTER => true);
+                self::SCRIPT_IN_FOOTER => true,
+                self::WUMII_COMMENT_PLUGIN_ENABLED => false);
         }
         
         private function popNotifyMessage() {
@@ -425,7 +428,8 @@ WUMII_SCRIPT;
                                                                     array(self::SINGLE_PAGE_ONLY,
                                                                           self::DISPLAY_IN_FEED,
                                                                           self::ENABLE_CUSTOM_POS,
-                                                                          self::SCRIPT_IN_FOOTER));
+                                                                          self::SCRIPT_IN_FOOTER,
+                                                                          self::WUMII_COMMENT_PLUGIN_ENABLED));
             
             $numPost = $this->getAdminOption(self::NUM_POSTS);
             // We allow the num of related items from 1 to 12.
@@ -443,7 +447,6 @@ WUMII_SCRIPT;
             
             echo $adminOptionTemplate->render();
         }
-        
         
         function printAdminPage() {
             $OptionsUpdatedMessage = array();
@@ -465,6 +468,13 @@ WUMII_SCRIPT;
                     foreach ($this->adminOptions as $key => $value) {
                         if (array_key_exists($key, $_POST)) {
                             $this->adminOptions[$key] = $_POST[$key];
+                            if ($key == self::WUMII_COMMENT_PLUGIN_ENABLED) {
+                                if ($_POST[$key]) {
+                                    $this->replaceCommentBox();
+                                } else {
+                                       $this->removeCommentBox();
+                                }
+                            }
                         }
                     }
                     $OptionsUpdatedMessage[] = new Wumii_Notify_Message('设置已更新.');
@@ -484,6 +494,28 @@ WUMII_SCRIPT;
             }
             $this->printHtmlNotifyMessage($OptionsUpdatedMessage);
             $this->printHtmlAdminOptionsPage();
+        }
+        
+        private function removeCommentBox() {
+            if (has_filter('comments_template', 'wumii_comment')) {
+                remove_filter('comments_template', 'wumii_comment', $this->commentFilterPriority);
+            }
+        }
+        
+        private function replaceCommentBox() {
+            if ($this->isCommentPluginEnabled() && !is_plugin_active('wumii-comment/wumii-comment.php')) {
+                // warn: should stay the same with wumii-comment.php
+                if (!function_exists('wumii_comment')) {
+                    add_filter('comments_template', 'wumii_comment', is_plugin_active('duoshuo/duoshuo.php') ? 99999 : 10);
+                    function wumii_comment($file) {
+                        global $post;
+                        if (strcmp(get_option('default_comment_status'), 'open') != 0) {
+                            update_option('default_comment_status', 'open');
+                        }
+                        return dirname(__FILE__) . '/comment.php';
+                    }
+                }
+            }
         }
         
         private function printHtmlNotifyMessage($notifyMessages) {
@@ -552,6 +584,11 @@ WUMII_SCRIPT;
             delete_option(self::ADMIN_OPTION_NAME);
             delete_option(self::NOTIFY_MESSAGE_CONTAINER);
             delete_option(self::VERIFICATION_CODE);
+        }
+        
+            
+        function isCommentPluginEnabled() {
+            return $this->adminOptions[self::WUMII_COMMENT_PLUGIN_ENABLED];
         }
     }
     
@@ -655,6 +692,8 @@ WUMII_SCRIPT;
     
     register_activation_hook(__FILE__, array($wumii_related_posts, 'doActivation'));
     register_deactivation_hook(__FILE__, array($wumii_related_posts, 'finalize'));
+    
+
 } else {
     function classConflictException() {
         echo '<div class="error"><p><strong>插件冲突。</strong>您的博客正在运行一个与“无觅相关文章插件”定义了相同类名的插件，只有在关闭冲突插件以后“无觅相关文章插件”才能正常启用。</p></div>';

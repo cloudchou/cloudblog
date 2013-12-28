@@ -17,7 +17,9 @@
                 <div class="meta">
                 	<span class="meat_span"><i class="iconfont">&#279;</i><?php if(function_exists(the_views)) { the_views('次浏览', true);}?></span>
                     <span class="meat_span"><i class="iconfont">&#54;</i>
-                        <a href="<?php the_permalink();?>" id="uyan_count_unit">0条评论</a>
+                            <!-- UYAN COUNT BEGIN -->
+                            <a href="<?php echo get_settings('home')."/?p=".get_the_ID();?>" id="uyan_count_unit">0条评论</a>
+                            <!-- UYAN COUNT END -->
                     </span>
                     <span class="meat_span meat_max"><i class="iconfont">&#48;</i><?php the_tags('', ', ', ''); ?></span>
                     <span class="more">[<a href="<?php the_permalink() ?>" title="详细阅读 <?php the_title(); ?>" rel="bookmark">阅读全文</a>]</span>                
