@@ -15,7 +15,7 @@
                 	
                 </div>
                 <div class="meta">
-                	<span class="meat_span"><i class="iconfont">&#279;</i><?php if(function_exists(the_views)) { the_views('次浏览', true);}?></span>
+                	<span class="meat_span"><i class="iconfont">&#279;</i><?php if(function_exists(the_views)) { the_views(true,'','次浏览', true);}?></span>
                     <span class="meat_span"><i class="iconfont">&#54;</i>
                             <!-- UYAN COUNT BEGIN -->
                             <a href="<?php echo get_settings('home')."/?p=".get_the_ID();?>" id="uyan_count_unit">0条评论</a>
