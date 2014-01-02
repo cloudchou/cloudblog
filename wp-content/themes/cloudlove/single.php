@@ -11,9 +11,8 @@
 				class="meat_span"><i class="iconfont">&#279;</i><?php if(function_exists(the_views)) { the_views(true,'','次浏览', true);}?></span>
 			<span class="meat_span"><i class="iconfont">&#54;</i> 
 							<!-- UYAN COUNT BEGIN -->
-                            <span id="uyan_count_unit">0条评论</span>
-                            <!-- UYAN COUNT END -->
-            </span>
+                            <a href="<?php echo get_settings('home')."/?p=".get_the_ID();?>" id="uyan_count_unit">0条评论</a>
+                            <!-- UYAN COUNT END --></span>
                 <?php edit_post_link('编辑', '<span class="meat_span">', '</span>'); ?>
             </div>
             
