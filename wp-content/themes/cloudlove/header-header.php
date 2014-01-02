@@ -104,12 +104,6 @@ if ( is_single() ){
 	        </li>
 	    </ul>
     </div>
-    <div id="search">
-	    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
-		    <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" size="30" />
-			<button type="submit" id="searchsubmit"><i class="iconfont">&#337;</i></button>
-		</form>
-    </div>
 </div>
 <div id="content">
 <div class="position">
