@@ -389,3 +389,25 @@ a#uyan_count_unit:Hover {
 	margin-bottom: 5px !important;
 	margin-top:  5px !important;
 }
+
+/****************博客内容样式**************/
+table.dataintable {
+   border: 1px solid #888888;
+   border-collapse: collapse;
+   font-family: Arial,Helvetica,sans-serif;
+   margin-top: 10px;
+   width: 100%;
+}
+table.dataintable th {
+   background-color: #CCCCCC;
+   border: 1px solid #888888;
+   padding: 5px 15px 5px 5px;
+   text-align: left;
+   vertical-align: baseline;
+}
+table.dataintable td {
+   background-color: #EFEFEF;
+   border: 1px solid #AAAAAA;
+   padding: 5px 15px 5px 5px;
+   vertical-align: text-top;
+}
