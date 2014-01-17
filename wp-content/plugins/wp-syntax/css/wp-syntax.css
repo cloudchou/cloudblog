@@ -77,7 +77,7 @@
 	float                : none !important;
 	clear                : none !important;
 	overflow             : visible !important;
-	font-family          : monospace !important;
+	font-family          : Consolas, "Liberation Mono", Courier, 微软雅黑!important;
 	font-size            : 12px !important;
 	line-height          : 23px !important;
 	padding              : 0 4px !important;
