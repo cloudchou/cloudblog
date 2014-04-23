@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html  xmlns:wb="http://open.weibo.com/wb">
 <head>
+<meta name="google-site-verification" content="hWKg3UjUNAyw0ur299WtQMfxgFXABatgX3-qkr74z8U" />
 <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>" />
 <?php if ( is_home() ) { ?><title><?php bloginfo('name'); ?></title><?php } ?>
 <?php if ( is_search() ) { ?><title>搜索结果 - <?php bloginfo('name'); ?></title><?php } ?>
